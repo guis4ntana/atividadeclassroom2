@@ -1,0 +1,89 @@
+/* App.css */
+
+/* Estilo geral da aplicação */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #020202;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+/* Estilo do título principal */
+h1 {
+  color: #f1eded;
+}
+
+/* Estilo do campo de entrada */
+input {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #1f3320;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(158, 2, 2, 0.1);
+}
+
+/* Estilo dos botões */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo dos botões quando em hover */
+button:hover {
+  background-color: #253325;
+  color: rgb(240, 10, 10);
+}
+
+/* Estilo do botão de remover */
+button.remove {
+  background-color: #f44336;
+  color: rgb(29, 2, 2);
+}
+
+/* Estilo do botão de remover quando em hover */
+button.remove:hover {
+  background-color: #ebd4d4;
+}
+
+/* Estilo da lista de tarefas */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Estilo de cada item da lista */
+li {
+  background: white;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(228, 8, 8, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Estilo do texto da tarefa concluída */
+span.completed {
+  text-decoration: line-through;
+  color: #141414;
+}
+
+/* Estilo do texto das tarefas */
+span {
+  font-size: 18px;
+}
